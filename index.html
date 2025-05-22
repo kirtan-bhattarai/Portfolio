@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="parallax" id="home">
+        <div class="overlay">
+            <h1>Hello, I'm Kirtan Bhattarai</h1>
+            <p class="desc">I'm a passionate developer skilled in C, C++, Java, HTML, CSS, and Python. Welcome to my portfolio!</p>
+            <a href="#about" class="scroll-down">▼</a>
+        </div>
+    </section>
+    <section class="about" id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a dedicated and enthusiastic programmer with a strong foundation in multiple programming languages. I love building efficient and elegant solutions to challenging problems.
+        </p>
+    </section>
+    <section class="skills" id="skills">
+        <h2>My Skill Set</h2>
+        <div class="skills-list">
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C icon">C
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:80%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">80%</span>
+            </div>
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++ icon">C++
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:60%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">60%</span>
+            </div>
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java icon">Java
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:50%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">50%</span>
+            </div>
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML icon">HTML
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:50%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">50%</span>
+            </div>
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS icon">CSS
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:50%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">50%</span>
+            </div>
+            <div class="skill"><img class="skill-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python icon">Python
+                <div class="skill-bar"><div class="skill-bar-fill" style="width:40%"></div></div>
+                <span style="margin-left:8px; color:#b0b0b0; font-size:0.95em;">40%</span>
+            </div>
+        </div>
+        <h3 style="margin-top:40px; color:#e0e0e0;">Other Technologies</h3>
+        <div class="tech-list">
+            <div class="tech"><img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-plain.svg" alt="Photoshop icon">Photoshop</div>
+            <div class="tech"><img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/premierepro/premierepro-original.svg" alt="Premiere Pro icon">Video Editing</div>
+            <div class="tech"><img class="tech-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/blender/blender-original.svg" alt="Blender icon">Blender (some experience)</div>
+        </div>
+    </section>
+    <section class="achievements achievements" id="achievements">
+        <h2>Achievements</h2>
+        <p>None yet, but there would be!</p>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:your.email@example.com">kirt4n.b8@gmail.com</a></p>
+        <p>LinkedIn: <a href="#">I don't have it yet</a></p>
+    </section>
+    <footer>
+        <p>&copy; 2025 Kirtan Bhattarai. All rights reserved.</p>
+    </footer>
+    <script>
+        // Smooth scroll for scroll-down arrow
+        document.querySelector('.scroll-down').addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector('#about').scrollIntoView({ behavior: 'smooth' });
+        });
+    </script>
+</body>
+</html>
